@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
@@ -34,9 +35,6 @@
 		<div class="content">
 			<p>
 				<?php   
-				// PHP Course Tutorial 8.
-				// Operators
-				
 				
 					$name = "Dhaka is the biggest city";
 					$people = "It has huge population";
