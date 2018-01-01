@@ -37,13 +37,16 @@
 				
 			
 				<?php   
-					$h = "Hellow";
-					$gm = "Good Morning";
-					$first = "I am a student";
-					$second = "I have got GPA";
-					$grade = 4.56;
-					echo $first.". ".$second." ".$grade;
-					
+				
+				$city =  "Tangail";
+				$gpa = 4.50;
+				$status = true;
+				$cities = array(
+					"Tangail","Mymensingh","Dhaka","Gazipur","Rajshahi"
+				
+				);
+				
+				
 
 				?>
 
