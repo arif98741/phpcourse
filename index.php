@@ -33,10 +33,10 @@
 		</div>
 		<div class="content">
 			<h2>PHP Operators. Tutorial 8</h2>
-			<h3>Logical Operator (and, or, xor)</h3>
+			<h3>Increment/Decrement Operator</h3>
 			<p>
 				<?php   
-					
+					//Tutorial 10. Increment/Decrement Operator
 				
 				
 				

@@ -9,3 +9,4 @@ PHP Fundamental Course by Ariful Islam
 8. PHP Basic Fundamental Arithmetic and Logical Operator
 8.1 PHP Basic Fundamental Conditional Logic AND, OR, XOR, Equal, Assign
 9. PHP Basic Fundamental Conditional and Assign Operator
+10. PHP Basic Fundamental Increment Decrement Operator
