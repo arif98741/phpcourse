@@ -6,3 +6,5 @@ PHP Fundamental Course by Ariful Islam
 5. PHP Basic Fundamental Var_Dump and Print_r Function
 6. PHP Basic Fundamental Echo and Concat Operator
 7. PHP Basic Fundamental Comment and Break Usage
+8. PHP Basic Fundamental Arithmetic and Logical Operator
+9. PHP Basic Fundamental Conditional and Assign Operator
