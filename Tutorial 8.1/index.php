@@ -36,7 +36,15 @@
 			<h3>Logical Operator (and, or, xor)</h3>
 			<p>
 				<?php   
-					
+				// PHP Course Tutorial 8.1
+				// Operators
+				$p = 5;
+				$q = 20;
+				
+				if($p >= 5 xor $q == 1){
+					echo "ok";
+				}
+				
 				
 				
 				
