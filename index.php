@@ -4,7 +4,6 @@
 	<meta charset="UTF-8">
 	<title>PHP Online Course For Learning</title>
 	<style type="text/css">
-		
 		.main{
 			width: 75%;
 			margin: 10px auto;
@@ -21,6 +20,7 @@
 			padding: 5px;
 		}
 		.content p{font-size:19px;}
+		.content h2{margin:0px; text-align:center;}
 		.header h1, .header p, .footer h1, .footer p{margin:0px;}
 		.footer a{text-decoration:none; color:brown;}
 	</style>
@@ -32,17 +32,19 @@
 			<p>Learn and Enjoy</p>
 		</div>
 		<div class="content">
+			<h2>PHP Operators. Tutorial 8</h2>
 			<p>
 				<?php   
 				// PHP Course Tutorial 8.
 				// Operators
+				//Arithmetic Operator(+,-,*,/,%)
+				//Logical Operator(&&,||)
+				//Comparison Operator(>,<,<=,>=)
 				
+				$x = 6;
+				$y = 7.6;
+				echo strval();
 				
-					$name = "Dhaka is the biggest city";
-					$people = "It has huge population";
-					echo $name."<br/>";
-					
-					echo $people;
 
 				?>
 

@@ -1,0 +1,8 @@
+PHP Fundamental Course by Ariful Islam
+1.PHP Fundamental Basic Introduction
+2. PHP Basic Fundamental Create Index File, Run
+3. PHP Basic Fundamental Syntax and Simple Errors
+4. PHP Basic Fundamental Variable Declaration and Usage
+5. PHP Basic Fundamental Var_Dump and Print_r Function
+6. PHP Basic Fundamental Echo and Concat Operator
+7. PHP Basic Fundamental Comment and Break Usage
