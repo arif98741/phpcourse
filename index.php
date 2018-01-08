@@ -37,8 +37,7 @@
 			<p>
 				<?php   
 					//Tutorial 10. Increment/Decrement Operator
-				
-				
+					
 				
 				?>
 			</p>
