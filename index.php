@@ -32,11 +32,22 @@
 			<p>Learn and Enjoy</p>
 		</div>
 		<div class="content">
-			<h2>PHP Operators. Tutorial 8</h2>
-			<h3>Increment/Decrement Operator</h3>
+			<h2>For Loop, While Loop, Do While Loop. Tutorial 11</h2>
+			
 			<p>
 				<?php   
-					//Tutorial 10. Increment/Decrement Operator
+					//1. For Loop
+					//2. While Loop
+					//3. Do While Loop
+					
+					for($i = 1; $i<=10; $i++)
+					{
+						echo $i;
+						echo "<br/>";
+					}
+					
+					
+					
 					
 				
 				?>
