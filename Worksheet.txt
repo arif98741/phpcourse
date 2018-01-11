@@ -11,4 +11,6 @@ PHP Fundamental Course by Ariful Islam
 9. PHP Basic Fundamental Conditional and Assign Operator
 10. PHP Basic Fundamental Increment Decrement Operator
 11. PHP Basic Fundamental For Loop, While Loop, Do While Loop
+12. PHP Basic Fundamental Array Introduction
+13. PHP Basic Fundamental Associative Array Introduction
 

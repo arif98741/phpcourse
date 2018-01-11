@@ -33,22 +33,39 @@
 			<p>Learn and Enjoy</p>
 		</div>
 		<div class="content">
-			<h2>Associative Array. Tutorial 13</h2>
+			<h2>For Loop, While Loop, Do While Loop. Tutorial 11</h2>
 			
 			<p style="font-size:18px;">
 			
 				<?php
+				
 					$data = array(
-						"Dhaka", //0
-						"Chittagong", //1
-						"Rajshahi", //2
-						"Khulna", //3
-						"Barisal" //4
+						"database","programming","datastructure","algorithm","electronics",
+						"fundametal","oriented","infratructure"
 					);
-					echo "<pre>";
-					print_r($data);
-					echo "</pre>";
-					echo $data[2];
+					
+					$sen = "database is the system of saving data in a sequencial way";
+					$sen_expl = explode(" ",$sen);
+					
+					
+					for($i=0; $i<8; $i++){
+						$sen_split = str_split($sen_expl[$i]);
+						$data_split = str_split($data[$i]);
+						if($sen_split[$i] == $data_split[$i])
+						{
+							echo $sen_split[$i]." ";
+						}
+							
+					}
+					
+					$d = "t";
+					if(ctype_upper ($d))
+					{
+						echo "right";
+					}else{
+						echo "false";
+					}
+					
 
 				 ?>
 			</p>
