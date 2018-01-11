@@ -1,5 +1,6 @@
 PHP Fundamental Course by Ariful Islam
-1.PHP Fundamental Basic Introduction
+1. PHP Fundamental Basic Introduction
+1.1 PHP Fundamental Basic Introduction
 2. PHP Basic Fundamental Create Index File, Run
 3. PHP Basic Fundamental Syntax and Simple Errors
 4. PHP Basic Fundamental Variable Declaration and Usage
