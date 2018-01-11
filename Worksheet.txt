@@ -14,4 +14,5 @@ PHP Fundamental Course by Ariful Islam
 12. PHP Basic Fundamental Array Introduction
 13. PHP Basic Fundamental Associative Array Introduction
 14. PHP Basic Fundamental Multidimentional Array
+15. PHP Basic Fundamental Print Array Values
 
