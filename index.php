@@ -33,23 +33,36 @@
 			<p>Learn and Enjoy</p>
 		</div>
 		<div class="content">
-			<h2>Associative Array. Tutorial 13</h2>
+			<h2>Multidimentional Array. Tutorial 14</h2>
 			
 			<p style="font-size:18px;">
 			
 				<?php
 					$data = array(
 						"Dhaka", //0
-						"Chittagong", //1
-						"Rajshahi", //2
-						"Khulna", //3
-						"Barisal" //4
+						array( //1
+							"Gazipur", //1,0
+							"Narayangonj", //1,1
+							"Savar", //1,2
+							array( 
+								"Elenga", //1,3,0
+								"Gopalpur", //1,3,1
+								"Modupur", //1,3,2
+								"Basail" //1,3,3
+							)
+						),
+						"Chittagong", 
+						"Rajshahi", 
+						"Khulna",
+						"Barisal" 
 					);
 					echo "<pre>";
 					print_r($data);
 					echo "</pre>";
-					echo $data[2];
-
+					
+					echo "<pre>";
+					print_r($data[1][3][1]);
+					echo "</pre>";
 				 ?>
 			</p>
 		</div>
