@@ -34,19 +34,18 @@
 			<p>Learn and Enjoy</p>
 		</div>
 		<div class="content">
-			<h2>Super Global Variable. Tutorial 19 </h2>
+			<h2>Super Global Variable $_REQUEST and $_POST. Tutorial 21 </h2>
+			
+			<a href="?id=5&address=Tangail">Click Here</a>
 			<p>
 				<?php
-				
-					//$_SERVER
-					
-					echo $_SERVER['SCRIPT_FILENAME'];
-					
-					phpinfo();
-					
-				
-				
-				
+				if(isset($_GET['address'])){
+				$id = $_GET['id'];
+				$address = $_GET['address'];
+				echo $id;
+				echo "<br/>";
+				echo $address;
+	}
 				?>
 			</p>
 				
