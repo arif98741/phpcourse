@@ -34,34 +34,24 @@
 			<p>Learn and Enjoy</p>
 		</div>
 		<div class="content">
-			<h2>Variable Scope. Tutorial 18</h2>
+			<h2>Super Global Variable. Tutorial 19 </h2>
 			<p>
-			
 				<?php
 				
-					$m= 10;
-					
-					
-					function first()
-					{
-						global $x;
-						echo "From First Function x is ".$x;
-						echo "<br/>";
-						$m = 20;
-						
-					}
-					function second()
-					{
-						global $m;
-						echo "From First Function x is ".$m;
-						
-					}
-					
-					
-					first();
-					second();
-					
-					
+				//$_SERVER
+				//echo $_SERVER['REMOTE_ADDR'];
+				//echo $_SERVER['PHP_SELF'];
+				//echo $_SERVER['SCRIPT_NAME'];
+				//echo $_SERVER['SERVER_NAME'];
+				//echo $_SERVER['SERVER_PORT'];
+				//echo $_SERVER['SERVER_ADDR'];
+				
+				
+				phpinfo();
+				echo phpversion();
+				
+				
+				
 				?>
 			</p>
 				

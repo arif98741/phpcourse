@@ -19,5 +19,7 @@ PHP Fundamental Course by Ariful Islam
 16. PHP Basic Fundamental Function Declaration and Usage
 17. PHP Basic Fundamental Function Arguments and Parameters
 18. PHP Basic Fundamental Variable Scope
+19. PHP Basic Fundamental Super Global Variable
+
 
 
