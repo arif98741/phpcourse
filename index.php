@@ -34,24 +34,32 @@
 			<p>Learn and Enjoy</p>
 		</div>
 		<div class="content">
-			<h2>Function Arguments and Parameters. Tutorial 17</h2>
+			<h2>Variable Scope. Tutorial 18</h2>
 			<p>
-			f(x) = x^2 + 2x + 4  <br/>
-			f(1) = 1^2 + 2.1 + 4  = 7<br/>
-			f(2) = 2^2 + 2.2 + 4  = 12<br/>
-			f(4) = 4^2 + 2.4 + 4  = 28<br/>
+			
 				<?php
+				
+					$m= 10;
 					
-					function Addition($x,$y){
-						$result = $x + $y;
-						return "The addition result for ".$x." and ".$y." is ".$result;
+					
+					function first()
+					{
+						global $x;
+						echo "From First Function x is ".$x;
+						echo "<br/>";
+						$m = 20;
+						
+					}
+					function second()
+					{
+						global $m;
+						echo "From First Function x is ".$m;
+						
 					}
 					
-				echo Addition(5,34)."<br/>";
-				echo Addition(50,40)."<br/>";
-				echo Addition(5,47)."<br/>";
-				echo Addition(15,20)."<br/>";
 					
+					first();
+					second();
 					
 					
 				?>

@@ -18,5 +18,6 @@ PHP Fundamental Course by Ariful Islam
 15. PHP Basic Fundamental Print Array Values
 16. PHP Basic Fundamental Function Declaration and Usage
 17. PHP Basic Fundamental Function Arguments and Parameters
+18. PHP Basic Fundamental Variable Scope
 
 
