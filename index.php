@@ -4,11 +4,15 @@
 <head>
 	<meta charset="UTF-8">
 	<title>PHP Online Course For Learning</title>
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Hind" rel="stylesheet">
 	<style type="text/css">
 		.main{
 			width: 75%;
 			margin: 10px auto;
 			background: #c0d6d8;
+			
 			
 		}
 		.header,.footer{
@@ -16,10 +20,12 @@
 			color: #e0e0d6;
 			text-align: center;
 			height: 87px;
+			font-family: 'Josefin Sans', sans-serif;
 		}
 		.content{
 			min-height: 440px;
 			padding: 5px;
+			
 		}
 		
 		input[type="text"],select{
@@ -42,9 +48,9 @@
 		
 		
 		
-		.content p{font-size:19px;}
-		.content h2{margin:0px; text-align:center;}
-		.header h1, .header p, .footer h1, .footer p{margin:0px;}
+		.content p{font-size:19px; font-family: 'Hind', sans-serif;}
+		.content h2{margin:0px; text-align:center; padding:5px; font-family: 'Josefin Slab', serif;}
+		.header h1, .header p, .footer h1, .footer p{margin:0px; padding: 5px;}
 		.footer a{text-decoration:none; color:brown;}
 	</style>
 </head>
@@ -56,10 +62,13 @@
 		</div>
 		<div class="content">
 			<h2>Super Global Variable $_COOKIE. Tutorial 23 </h2>
-			<br/>
-			<?php
-				
-			?>
+			
+			<p>
+				<?php
+					echo "hi there";
+				?>
+			</p>
+			
 				
 			
 		
