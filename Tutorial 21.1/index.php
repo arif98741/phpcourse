@@ -21,13 +21,14 @@
 			min-height: 420px;
 			padding: 5px;
 		}
-		
+		/*form{
+			
+		}
 		input[type="text"],select{
 			width: 200px;
 			height: 36px;
 			padding: 4px;
 			font-size: 18px;
-			margin: 4px;
 		}
 		input[type="submit"]{
 			width: 75px;
@@ -37,10 +38,9 @@
 			font-size: 18px;
 			color: blue;
 			border-radius: 5px;
-			cursor: pointer;
 		}
 		
-		
+		*/
 		
 		.content p{font-size:19px;}
 		.content h2{margin:0px; text-align:center;}
@@ -55,44 +55,21 @@
 			<p>Learn and Enjoy</p>
 		</div>
 		<div class="content">
-			<h2>Super Global Variable $_REQUEST and $_POST. Tutorial 21 </h2>
+			<h2>Super Global Variable $_REQUEST and $_POST. Tutorial 21.1 </h2>
 			<br/>
 			<?php
 				if($_SERVER['REQUEST_METHOD']=='POST'){
-					//echo "<pre>";
-					//print_r($_POST);
-					//echo "</pre>";
-					$val = "";
-					$name = $_REQUEST['name'];
-					$address = $_POST['address'];
-					$email = $_POST['email'];
-					
-					if($name == "" || $address ==  "" || $email == ""){
-						echo "Field Must not be empty";
-					}  else{
-						
-						$val = "Name = ".$name."<br/>";
-						$val .= "Address = ".$address."<br/>";
-						$val .= "Email = ".$email;
-					}
-					
+					echo "<pre>";
+					print_r($_POST);
+					echo "</pre>";
 				}
 				
 			?>
 			<form action="" method="post">
-				<input type="text" name="name" placeholder="Name" /><br/>
-				<input type="text" name="address" placeholder="Address"/><br/>
-				<input type="text" name="email"  placeholder="Email"/><br/>
+				<input type="" name="address" placeholder="Address"/><br/>
+				<input type="" name="email"  placeholder="Email"/><br/>
 				<input type="submit"  value="SUBMIT"/>
 			</form>
-			
-			<?php 
-			
-			
-				if(isset($val)){
-					echo $val;
-				}
-			?>
 			
 		</div>
 		<div class="footer">
