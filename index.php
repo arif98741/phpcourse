@@ -18,7 +18,7 @@
 			height: 87px;
 		}
 		.content{
-			min-height: 420px;
+			min-height: 440px;
 			padding: 5px;
 		}
 		
@@ -58,7 +58,7 @@
 			<h2>Super Global Variable $_COOKIE. Tutorial 23 </h2>
 			<br/>
 			<?php
-			
+				
 			?>
 				
 			
