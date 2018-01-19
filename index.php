@@ -55,44 +55,15 @@
 			<p>Learn and Enjoy</p>
 		</div>
 		<div class="content">
-			<h2>Super Global Variable $_REQUEST and $_POST. Tutorial 21 </h2>
+			<h2>Super Global Variable $_COOKIE. Tutorial 23 </h2>
 			<br/>
 			<?php
-				if($_SERVER['REQUEST_METHOD']=='POST'){
-					//echo "<pre>";
-					//print_r($_POST);
-					//echo "</pre>";
-					$val = "";
-					$name = $_REQUEST['name'];
-					$address = $_POST['address'];
-					$email = $_POST['email'];
-					
-					if($name == "" || $address ==  "" || $email == ""){
-						echo "Field Must not be empty";
-					}  else{
-						
-						$val = "Name = ".$name."<br/>";
-						$val .= "Address = ".$address."<br/>";
-						$val .= "Email = ".$email;
-					}
-					
-				}
+			
+			?>
 				
-			?>
-			<form action="" method="post">
-				<input type="text" name="name" placeholder="Name" /><br/>
-				<input type="text" name="address" placeholder="Address"/><br/>
-				<input type="text" name="email"  placeholder="Email"/><br/>
-				<input type="submit"  value="SUBMIT"/>
-			</form>
 			
-			<?php 
+		
 			
-			
-				if(isset($val)){
-					echo $val;
-				}
-			?>
 			
 		</div>
 		<div class="footer">

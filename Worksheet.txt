@@ -23,6 +23,8 @@ PHP Fundamental Course by Ariful Islam
 20. PHP Basic Fundamental Super Global Variable $_GET
 21.1 PHP Basic Fundamental Super Global Variable $_REQUEST AND $_POST
 21.2 PHP Basic Fundamental Super Global Variable $_REQUEST AND $_POST
+22. PHP Basic Fundamental Super Global Variable $_SESSION
+23. PHP Basic Fundamental Super Global Variable $_COOKIE
  
 
 
