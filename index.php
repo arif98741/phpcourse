@@ -56,12 +56,16 @@
 </head>
 <body>
 	<div class="main">
+		
+	
+
+
 		<div class="header">
 			<h1>PHP Basic Fundamental Course</h1>
 			<p>Learn and Enjoy</p>
 		</div>
 		<div class="content">
-			<h2>Super Global Variable $_COOKIE. Tutorial 23 </h2>
+			<h2> Data Validation - Tutorial 24 </h2>
 			
 			<p>
 				<?php
@@ -70,10 +74,6 @@
 			</p>
 			
 				
-			
-		
-			
-			
 		</div>
 		<div class="footer">
 			<h1>Instructor Ariful Islam 2018</h1>
