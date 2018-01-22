@@ -57,9 +57,6 @@
 <body>
 	<div class="main">
 		
-	
-
-
 		<div class="header">
 			<h1>PHP Basic Fundamental Course</h1>
 			<p>Learn and Enjoy</p>
@@ -69,7 +66,20 @@
 			
 			<p>
 				<?php
-					echo "hi there";
+				
+					$x = filter_data("Dhaka");
+					$y = filter_data("Rajshahi");
+					$z = filter_data("Khulna");
+					
+					function filter_data($d){
+						$d = stripslashes($d);
+						$d = trim($d);
+						$d = htmlspecialchars($d);
+						return $d;
+					}
+					
+					
+					
 				?>
 			</p>
 			
