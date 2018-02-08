@@ -62,41 +62,15 @@
 			<p>Learn and Enjoy</p>
 		</div>
 		<div class="content">
-			<h2> Switch Case Operator - Tutorial 25 </h2>
+			<h2> String Functions - Tutorial 26 </h2>
 			
 			<p>
 				<?php
 					
-					$x = 14;
+					$data = "Dhaka is the capital of Bangladesh";
+					$data = str_word_count($data);
+					echo $data;
 					
-					switch($x)
-					{
-						case 1:
-							echo "yes found 1<br/>";
-							break;
-						case 2:
-							echo "yes found 2<br/>";
-							break;
-							
-						case 3:
-							echo "yes found 3<br/>";
-							break;
-							
-						case 4:
-							echo "yes found 4<br/>";
-							
-							
-							
-						case 5:
-							echo "yes found 5<br/>";
-							break;
-							
-						default:
-							echo "no matched";	
-						
-							
-							
-					}
 					
 					
 				?>

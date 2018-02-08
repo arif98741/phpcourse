@@ -29,6 +29,7 @@ PHP Fundamental Course by Ariful Islam
 23. PHP Basic Fundamental Super Global Variable $_COOKIE
 24. PHP Basic Fundamental Data Validation
 25. PHP Basic Fundamental Switch Case Operator
+26. PHP Basic Fundamental String Functions
  
 
 
