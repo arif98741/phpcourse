@@ -66,13 +66,8 @@
 			
 			<p>
 				<?php
-					
-					$data = "Dhaka is the capital of Bangladesh";
-					$data = str_word_count($data);
-					echo $data;
-					
-					
-					
+					$d = strtotime("14 April 1978 GMT+1");
+					echo date("d-m-Y", $d);
 				?>
 			</p>
 			
