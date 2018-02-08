@@ -17,6 +17,7 @@ PHP Fundamental Course by Ariful Islam
 14. PHP Basic Fundamental Multidimentional Array
 15. PHP Basic Fundamental Print Array Values
 15.1 PHP Basic Fundamental Array Sorting
+15.1 PHP Basic Fundamental Array Functions
 16. PHP Basic Fundamental Function Declaration and Usage
 17. PHP Basic Fundamental Function Arguments and Parameters
 18. PHP Basic Fundamental Variable Scope
