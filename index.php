@@ -62,25 +62,41 @@
 			<p>Learn and Enjoy</p>
 		</div>
 		<div class="content">
-			<h2> Array Functions - Tutorial 15.2 </h2>
+			<h2> Switch Case Operator - Tutorial 25 </h2>
 			
 			<p>
 				<?php
 					
-					$a = array(
-						34,23,4,4,34,4,98
-					);
-				
-					echo array_sum($a);
-					echo "<pre>";
-					print_r($a);
-					echo "<pre>";
+					$x = 14;
 					
-					
-					
-					echo "<pre>";
-					print_r(array_slice($a,4,1));
-					echo "<pre>";
+					switch($x)
+					{
+						case 1:
+							echo "yes found 1<br/>";
+							break;
+						case 2:
+							echo "yes found 2<br/>";
+							break;
+							
+						case 3:
+							echo "yes found 3<br/>";
+							break;
+							
+						case 4:
+							echo "yes found 4<br/>";
+							
+							
+							
+						case 5:
+							echo "yes found 5<br/>";
+							break;
+							
+						default:
+							echo "no matched";	
+						
+							
+							
+					}
 					
 					
 				?>
