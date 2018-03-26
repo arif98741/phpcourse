@@ -62,12 +62,11 @@
 			<p>Learn and Enjoy</p>
 		</div>
 		<div class="content">
-			<h2> String Functions - Tutorial 26 </h2>
+			<h2> Date Function - Tutorial 28 </h2>
 			
 			<p>
 				<?php
-					$d = strtotime("14 April 1978 GMT+1");
-					echo date("d-m-Y", $d);
+					echo date('Y-m-d');
 				?>
 			</p>
 			
