@@ -66,7 +66,10 @@
 			
 			<p>
 				<?php
-					echo date('Y-m-d');
+				
+					date_default_timezone_set('Asia/Dhaka');
+					echo strtotime('l, d/m/y h:i:s',4545454212);
+					
 				?>
 			</p>
 			
