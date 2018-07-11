@@ -61,12 +61,17 @@
 			<p>Learn and Enjoy</p>
 		</div>
 		<div class="content">
-			<h2> Database Connection  - Tutorial 29. 1 </h2>
+			<h2> Date  Validation- Tutorial 24 . 1 </h2>
 			
 			<p>
 				<?php
 					
 					
+					if(filter_var("1920",FILTER_VALIDATE_INT)){
+						echo "This is  integer Number";
+					}else{
+						echo "This is not integer Number";
+					}
 					
 				?>
 			</p>

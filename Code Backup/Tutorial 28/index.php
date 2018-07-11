@@ -61,13 +61,18 @@
 			<p>Learn and Enjoy</p>
 		</div>
 		<div class="content">
-			<h2> Database Connection  - Tutorial 29. 1 </h2>
+			<h2> Date  - Tutorial 24.1 </h2>
 			
 			<p>
 				<?php
 					
-					
-					
+					//echo date_default_timezone_get();
+					date_default_timezone_set("Asia/Dhaka");
+					echo "<br>";
+					echo date_default_timezone_get();
+					echo "<br>";
+					echo date("d-m-Y H:i:sA");
+				
 				?>
 			</p>
 			
