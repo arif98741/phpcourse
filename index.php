@@ -1,4 +1,3 @@
-
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
@@ -62,14 +61,14 @@
 			<p>Learn and Enjoy</p>
 		</div>
 		<div class="content">
-			<h2> Date Function - Tutorial 28 </h2>
+			<h2> Date  - Tutorial 28 </h2>
 			
 			<p>
 				<?php
 				
-					date_default_timezone_set('Asia/Dhaka');
-					echo strtotime('l, d/m/y h:i:s',4545454212);
-					
+				
+				
+				
 				?>
 			</p>
 			
