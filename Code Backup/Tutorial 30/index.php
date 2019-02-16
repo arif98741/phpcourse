@@ -65,7 +65,7 @@
 			
 			<p>
 				<?php
-					
+					//Tutorial 30. PHP Constant
 					define("host","127.0.0.1",false);
 					define("BASE_URL","http://localhost/phpcourse/",false);
 					echo BASE_URl;

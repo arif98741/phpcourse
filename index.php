@@ -1,3 +1,4 @@
+<?php namespace App\Service; ?>
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
@@ -61,23 +62,29 @@
 			<p>Learn and Enjoy</p>
 		</div>
 		<div class="content">
-			<h2> PHP Constant - Tutorial 30 </h2>
-			
+			<h2> PHP Magic Constant - Tutorial 31 </h2>
 			<p>
-				<?php
-					
-					define("host","127.0.0.1",false);
-					define("BASE_URL","http://localhost/phpcourse/",false);
-					echo BASE_URl;
-					
+				<?php 
+						
+						
+						class Something{
+							
+							public function abc()
+							{
+								echo "yes";
+							}
+						}
+						use App\Service;
+						$obj = new App\Service\something();
+						
 				?>
 			</p>
 			
 				
 		</div>
 		<div class="footer">
-			<h1>Instructor Ariful Islam 2018</h1>
-			<p>&copy; Copyright <a href="https://www.youtube.com/channel/UCIoDbAdMtNye5uR3riRZZsA">Ariful Islam</a></p>
+			<h1>Instructor Ariful Islam <?php echo date('Y'); ?></h1>
+			<p>&copy; Copyright <a href="https://www.youtube.com/channel/UCIoDbAdMtNye5uR3riRZZsA" target="_blank">Ariful Islam</a></p>
 		</div>
 	</div>
 </body>
