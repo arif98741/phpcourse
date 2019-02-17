@@ -1,3 +1,9 @@
+<?php 
+					
+					dfphpinfo(); die;
+					
+					
+				?>
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
@@ -20,7 +26,6 @@
 			text-align: center;
 			height: 87px;
 			font-family: 'Josefin Sans', sans-serif;
-			border-radius: 4px 4px 0px 0px;
 		}
 		.content{
 			min-height: 440px;
@@ -56,15 +61,35 @@
 </head>
 <body>
 	<div class="main">
+		
 		<div class="header">
 			<h1>PHP Basic Fundamental Course</h1>
 			<p>Learn and Enjoy</p>
 		</div>
 		<div class="content">
-			<h2> PHP Directory Functions - Tutorial 32 </h2>
+			<h2> PHP XDebug - Tutorial 32 </h2>
 			<p>
-		 	
-				<?php  ?>
+			
+			<?php
+				//at first copy whole page from phpinfo()
+
+				//and paste it to https://xdebug.org/wizard.php
+				// download dll file and paste it to xampp/php/ext
+				//open php.ini from xampp/php and paste the below code at bottom.
+				/*
+
+				[XDebug]
+				zend_extension = C:\xampp\php\ext\php_xdebug-2.6.1-7.2-vc15.dll
+				xdebug.default_enable=1
+				xdebug.remote_enable=1
+				xdebug.remote_host=127.0.0.1
+				xdebug.profile_enable=1
+				xdebug.idekey=PHPSTROM
+				*/
+
+				//later change zend_extension path from xdebug page 
+				//https://gist.github.com/arif98741/456cc8fadbe114b122fb2dcd9271f149
+			 ?>
 			
 			</p>
 			

@@ -20,7 +20,6 @@
 			text-align: center;
 			height: 87px;
 			font-family: 'Josefin Sans', sans-serif;
-			border-radius: 4px 4px 0px 0px;
 		}
 		.content{
 			min-height: 440px;
@@ -56,15 +55,46 @@
 </head>
 <body>
 	<div class="main">
+		
 		<div class="header">
 			<h1>PHP Basic Fundamental Course</h1>
 			<p>Learn and Enjoy</p>
 		</div>
 		<div class="content">
-			<h2> PHP Directory Functions - Tutorial 32 </h2>
+			<h2> PHP Magic Constant - Tutorial 31 </h2>
 			<p>
-		 	
-				<?php  ?>
+			
+				<?php 
+				//Tutorial 31
+					
+					/*
+					echo __LINE__;
+					echo __FILE__;
+					echo __DIR__;
+					
+					function test()
+					{
+						return "we are working on <strong>".__FUNCTION__."</strong> function";
+					}
+					
+					echo test();
+					
+					
+					class Student{
+						
+						public function __construct()
+						{
+							echo "we are now in ".__METHOD__." method";
+						}
+					}
+					
+					$obj = new Student();
+					
+					*/
+					
+					
+					
+				?>
 			
 			</p>
 			
