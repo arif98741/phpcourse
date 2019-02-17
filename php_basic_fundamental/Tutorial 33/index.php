@@ -61,18 +61,14 @@
 			<p>Learn and Enjoy</p>
 		</div>
 		<div class="content">
-			<h2> PHP Write/Read File - Tutorial 34 </h2>
+			<h2> PHP Working With Directory mkdir(), rmdir() - Tutorial 33 </h2>
 			<p>
 		 	
 				<?php 
-				
-					$myfile = fopen("student.txt","r") or die("Failed to open your requested file");
-					while(!feof($myfile)) {
-					  echo fgets($myfile) . "<br>";
-					}
 					
-					fclose($myfile);
-					
+					//mkdir("student/abc");
+					rmdir("student");
+
 				?>
 			
 			</p>
