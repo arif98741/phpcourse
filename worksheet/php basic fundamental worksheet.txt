@@ -32,6 +32,13 @@ PHP Fundamental Course by Ariful Islam
 26. PHP Basic Fundamental String Functions
 27. PHP Basic Fundamental Explode and Implode
 28. PHP Basic Fundamental Date Function
+29. Database connection
+30. PHP Basic Fundamental Constant
+31. PHP Basic Fundamental - Magic Constants
+32. PHP Basic Fundamental Installing XDebug
+33. PHP Basic Fundamental Working with Directory rmdir, mkdir.mp4
+34. PHP Basic Fundamental Read or Write File
+35. PHP Basic Fundamental Tutorial Include, Require
 
  
 
