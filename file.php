@@ -1,0 +1,1 @@
+<h2>This is from file.php </h2>

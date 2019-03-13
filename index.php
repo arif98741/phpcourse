@@ -61,21 +61,13 @@
 			<p>Learn and Enjoy</p>
 		</div>
 		<div class="content">
-			<h2> PHP Write/Read File - Tutorial 34 </h2>
-			<p>
-		 	
-				<?php 
-				
-					$myfile = fopen("student.txt","r") or die("Failed to open your requested file");
-					while(!feof($myfile)) {
-					  echo fgets($myfile) . "<br>";
-					}
-					
-					fclose($myfile);
+			<h2> PHP Include/Require - Tutorial 35 </h2>
+			<?php
+					include('file.php');
+					echo "hi boss";
 					
 				?>
 			
-			</p>
 			
 				
 		</div>
