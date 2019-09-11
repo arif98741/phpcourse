@@ -24,14 +24,14 @@
 			border-radius: 4px 4px 0px 0px;
 		}
 		.content{
-			min-height: 400px;
+			min-height: 440px;
 			padding: 5px;
 			
 		}
 		
-		input[type="text"],input[type="email"],input[type="password"],select{
-			/*width: 200px;
-			height: 36px;*/
+		input[type="text"],select{
+			width: 200px;
+			height: 36px;
 			padding: 4px;
 			font-size: 18px;
 			margin: 4px;
@@ -60,14 +60,37 @@
 			<p>Learn and Enjoy</p>
 		</div>
 		<div class="content">
-			<h2> PHP Select Data Using PDO - Tutorial 39 </h2>
-			<hr>
+			<h2> PHP Insert Data Using PDO Part 1- Tutorial 37 </h2>
 			<?php
+				
+				$con = connect();
 
+				$name = 'Kamrul Islam';
+				$sex = 'male';
+				$username = 'kamrul123';
+				$password = md5(123);
+				$mobile = '0170000000';
+				$address = 'Tangail';
+				$designation = 'Employee';
+				$image = 'some.jpg';
 
+				$sql = "insert into usertable(name,sex,username,password,mobile,address,designation,image) values(:name,:sex,:username,:password,:mobile,:address,:designation,:image)";
+				$statement = $con->prepare($sql);
+				$statement->bindParam(":name",$name);
+				$statement->bindParam(":sex",$sex);
+				$statement->bindParam(":username",$username);
+				$statement->bindParam(":password",$password);
+				$statement->bindParam(":mobile",$mobile);
+				$statement->bindParam(":address",$address);
+				$statement->bindParam(":designation",$designation);
+				$statement->bindParam(":image",$image);
+
+				$statement->execute();
+
+				
+				
 			?>
-			
-
+				
 		</div>
 		<div class="footer">
 			<h1>Instructor Ariful Islam <?php echo date('Y'); ?></h1>

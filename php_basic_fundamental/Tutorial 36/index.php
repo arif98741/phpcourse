@@ -1,4 +1,3 @@
-<?php require 'connection.php'; ?>
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
@@ -24,14 +23,14 @@
 			border-radius: 4px 4px 0px 0px;
 		}
 		.content{
-			min-height: 400px;
+			min-height: 440px;
 			padding: 5px;
 			
 		}
 		
-		input[type="text"],input[type="email"],input[type="password"],select{
-			/*width: 200px;
-			height: 36px;*/
+		input[type="text"],select{
+			width: 200px;
+			height: 36px;
 			padding: 4px;
 			font-size: 18px;
 			margin: 4px;
@@ -47,8 +46,10 @@
 			cursor: pointer;
 		}
 		
+		
+		
 		.content p{font-size:19px; font-family: 'Hind', sans-serif;}
-		.content h2{margin:0px; text-align:center; padding:5px; font-family: 'Arial';}
+		.content h2{margin:0px; text-align:center; padding:5px; font-family: 'Josefin Slab', serif;}
 		.header h1, .header p, .footer h1, .footer p{margin:0px; padding: 5px;}
 		.footer a{text-decoration:none; color:brown;}
 	</style>
@@ -60,14 +61,26 @@
 			<p>Learn and Enjoy</p>
 		</div>
 		<div class="content">
-			<h2> PHP Select Data Using PDO - Tutorial 39 </h2>
-			<hr>
+			<h2> PHP PDO Connection- Tutorial 36 </h2>
 			<?php
-
-
+				
+				
+				try{
+					$username = 'root';
+					$password = '';
+					
+					$con = new PDO('mysql:host=localhost;dbname=usertable;',$username,$password);
+					$con->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
+					
+				}catch(PDOException $e)
+				{
+					echo 'Connection failed '.$e->getMessage();
+				}
+				
+				
+				
 			?>
-			
-
+				
 		</div>
 		<div class="footer">
 			<h1>Instructor Ariful Islam <?php echo date('Y'); ?></h1>
